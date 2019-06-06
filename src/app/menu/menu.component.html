@@ -1,0 +1,10 @@
+<html>
+  <head></head>
+  <body>
+    <ul class="nav">
+      <li *ngFor="let item of pageMenu "(click)= "onNav(item)"><a class="active">{{item.name}}</a></li>
+    </ul>
+  </body>
+</html>
+
+<router-outlet></router-outlet>
